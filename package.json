@@ -1,0 +1,30 @@
+{
+  "name": "file-path-maker",
+  "version": "1.0.0",
+  "description": "organize incoming files in a predictably growing hierarchy",
+  "main": "index.js",
+  "files": ["/lib", "/badges"],
+  "scripts": {
+    "test": "jest",
+    "test-ci": "jest --ci --coverage"
+  },
+  "jest": {
+	  "collectCoverageFrom": [
+  		"index.js"
+	  ],
+	  "coverageReporters": ["clover", "json", "lcov", "text", "json-summary"],
+  	"verbose": false,
+  	"testPathIgnorePatterns": [
+  		"/node_modules/"
+  	]
+  },  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/do-/node-file-path-maker.git"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "author": "Dmitry Ovsyanko",
+  "license": "MIT"
+}
