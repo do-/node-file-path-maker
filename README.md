@@ -1,3 +1,6 @@
+![workflow](https://github.com/do-/node-file-path-maker/actions/workflows/main.yml/badge.svg)
+![Jest coverage](./badges/coverage-jest%20coverage.svg)
+
 `file-path-maker` is an npm module for organizing a steady flow of incoming files in a predictably growing tree of directories.
 
 
